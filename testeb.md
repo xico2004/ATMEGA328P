@@ -18,3 +18,7 @@ USART
 
 * Esses registros determinam a velocidade de comunicação, ou baud rate, configurando o valor do divisor de clock.
 * O valor do divisor de clock é calculado usando a fórmula:
+
+* $$ UBRR= { {ClockRequency \over 16 * BaudRate} - 1 }$$
+
+* Assumindo a frequência de clock típica do microcontrolado de 16MHz (16 
