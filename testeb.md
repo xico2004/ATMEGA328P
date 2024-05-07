@@ -23,4 +23,4 @@ $$ UBRR= { {ClockRequency \over 16 * BaudRate} - 1 }$$
 
 Assumindo a frequência de clock típica do microcontrolador de 16MHz ($16*10^6$) e o baudrate de $9600$, calculamos o UBRR da seguinte forma:
 
-$$ UBRR = { 16*10^6 \over 16*9600} - 1 = 113,1667$$
+$$ UBRR ={ { 16*10^6 \over 16*9600} - 1 = 113,1667}$$
