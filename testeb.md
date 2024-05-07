@@ -21,4 +21,6 @@ O valor do divisor de clock é calculado usando a fórmula:
 
 $$ UBRR= { {ClockRequency \over 16 * BaudRate} - 1 }$$
 
-Assumindo a frequência de clock típica do microcontrolado de 16MHz ($16x10^6$)
+Assumindo a frequência de clock típica do microcontrolador de 16MHz ($16*10^6$) e o baudrate de $9600$, calculamos o UBRR da seguinte forma:
+
+$$ UBRR = { 16*10^6 \over 16*9600} - 1 = 113,1667$$
